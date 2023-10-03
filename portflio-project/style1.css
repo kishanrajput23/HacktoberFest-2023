@@ -1,0 +1,67 @@
+*{
+    background-color:antiquewhite;
+}
+header{
+    width: 100%;
+    height: 20vh;
+    
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav h3{
+    color: blue;
+    font-size: 30px;
+    margin-left: 25px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    font-weight:bolder;
+    font-size: large;
+}
+li{
+    color:yellowgreen;
+}
+.fa-brands{
+    padding: 7px;
+    top: 10px;
+    margin-right: 15px;
+    margin-top: 33px;
+}
+.contents{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: rgb(237, 110, 55);
+    
+}
+.contents img{
+    height: 100%;
+    width: 50%;
+}
+.contents h1{
+    font-size:3rem;
+}
+.contents p{
+    font-size:1.3rem;
+}
+.btn{
+    background-color: #291fb1;
+    color: white;
+    height: 45px;
+    width: 100px;
+    border-radius: 12px;
+    font-size: large;
+}
+p,h1,button{
+    margin-left: 50px;
+    padding: 2px;
+}
+    
